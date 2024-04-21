@@ -1,6 +1,7 @@
 # Awesome Knowledge Challenge:
 
-Given by AwesomeQA
+Provided by AwesomeQA. 
+This project tackles the challenge of maintaining up-to-date documentation in dynamically changing environments. The approach focuses on automation, leveraging AI to streamline the update process.
 
 ## Minimum requirements:**
 
@@ -16,19 +17,18 @@ Given by AwesomeQA
 
 It solves the problem with the following steps:
 
-    1-) Load scraped data
-    2-) Use each line as a seperate chunk
-    3-) Use the content of the line to generate embeddings with free Hugging Face model
-    4-) Store them as vector database with Annoy
-    5-) Query vector store with given query
-    6-) Take most similar 50 pages
-    7-) Update them with generic Prompt template with OpenAI GPT-3.5-turbo model
-        if similarity socore is below the threshold
-    8-) Print the previous page content and the updated page content
-    9-) Check the Edit Distance between old and updated content
-    10-) Check the semantic Embedding Similarities between the old content and 
-    the updated content with the given natural language query
-    11-) Write the updated content in another JSONL file.
+    1-) Load scraped data.
+    2-) Treat each line as a seperate chunk
+    3-) Generate embeddings for each line using a free Hugging Face model.
+    4-) Store embeddings in an Annoy vector store library.
+    5-) Query the vector store using the specified query.
+    6-) Retrieve the 50 most similar pages.
+    7-) Update the pages using a generic prompt template with the OpenAI GPT-3.5-turbo model 
+    if the similarity score is below the threshold.
+    8-) Print the content of the page before and after updates.
+    9-) Evaluate the edit distance between the original and updated content.
+    10-) Assess the semantic embedding similarities between the old and updated content relative to the query.
+    11-) Write the updated content into another JSONL file.
 
 
 ## Improvements:
@@ -39,8 +39,7 @@ Also, experimenting with other vector libraries like FAISS might offer better pe
 
 2-) More advanced models might give better performance for Embedding generation.
 
-3-) Solution might be tested with different use cases. 
-        Extreme cases:
+3-) The solution should be tested across various scenarios, including:
         - Query which is irrelavent to all page contents
         - Query which is highly relevant to all page contents
 
@@ -50,4 +49,9 @@ Also, experimenting with other vector libraries like FAISS might offer better pe
 
 6-) System prompt template can be improved.
 
-7-) Better evaluation techniques might be used.
+7-) Evaluation is done qualitatively and with simple quantitative analysis. 
+Better evaluation techniques might be used to check the content pre- and post-update to ensure that 
+the changes align with the natural language query.
+
+8-) Similarity threshold to update is chosen by qualitative checks and it might be improved.
+Also, secondary LLM might be used to confirm if the content really needs updating based on the change context.
