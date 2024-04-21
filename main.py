@@ -15,7 +15,7 @@ dotenv.load_dotenv()
 OPENAI_API_KEY = str(os.getenv("OPENAI_API_KEY"))
 
 # Define the Silarity upper limit for updated contents
-SIMILARITY_LIMIT = 1.0
+SIMILARITY_LIMIT = 0.8
 
 # Define a template for API call
 TEMPLATE = """
@@ -83,7 +83,7 @@ def update_document_content(similar_pages: tuple[Annoy, float],
     for page in similar_pages:
         # Limit the similarity score of the page to filter out less relevant results.
         if page[1] > SIMILARITY_LIMIT:
-            break
+            continue
         # Get response according to the similar content and save them with the updated content
         current_content = page[0].page_content
         response = llm_chain.invoke({"text": current_content, "information": query})
