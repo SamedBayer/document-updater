@@ -10,7 +10,6 @@ from langchain.evaluation import load_evaluator
 import os
 import dotenv
 
-
 dotenv.load_dotenv()
 
 OPENAI_API_KEY = str(os.getenv("OPENAI_API_KEY"))
@@ -113,7 +112,7 @@ def string_distance_evaluation(updated_contents: dict[str, str]):
             prediction=updated_contents[old_content],
             reference=old_content,
         )
-        print(f"string_distance for similar content {i}: ", string_distance)
+        print(f"String Edit Distance for Similar Content {i}: ", string_distance)
 
 def semantic_distance_evaluation(embeddings_func: HuggingFaceEmbeddings, 
                                  updated_contents: dict[str, str]):
@@ -140,26 +139,25 @@ def semantic_distance_evaluation(embeddings_func: HuggingFaceEmbeddings,
             reference=query,
         )
         print(f"Semantic Similarity of Old Content with Query for {i}:", previous_semantic_similarity_to_query)
-        print("Semantic Similarity of Updated Content with Query for {i}:", new_semantic_similarity_to_query)
+        print(f"Semantic Similarity of Updated Content with Query for {i}:", new_semantic_similarity_to_query)
 
 
 def main(query: str):
     """
     Main function for Awesome Knowledge Challenge. It uses the following steps:
 
-    1-) Load scraped data
-    2-) Use each line as a seperate chunk
-    3-) Use the content of the line to generate embeddings with free Hugging Face model
-    4-) Store them as vector database with Annoy
-    5-) Query vector store with given query
-    6-) Take most similar 50 pages
-    7-) Update them with generic Prompt template with OpenAI GPT-3.5-turbo model
-        if similarity socore is below the threshold
-    8-) Print the previous page content and update page content
-    9-) Check the Edit distance between old and updated content
-    10-) Check the semantic embedding similarities between old content and updated
-        content with the given natural language query
-    11-) Write the updated content in another Jsonl file.
+    1-) Load scraped data.
+    2-) Treat each line as a seperate chunk
+    3-) Generate embeddings for each line using a free Hugging Face model.
+    4-) Store embeddings in an Annoy vector store library.
+    5-) Query the vector store using the specified query.
+    6-) Retrieve the 50 most similar pages.
+    7-) Update the pages using a generic prompt template with the OpenAI GPT-3.5-turbo model 
+    if the similarity score is below the threshold.
+    8-) Print the content of the page before and after updates.
+    9-) Evaluate the edit distance between the original and updated content.
+    10-) Assess the semantic embedding similarities between the old and updated content relative to the query.
+    11-) Write the updated content into another JSONL file.
 
     Args:
         query: natural language query to automatically update the documentation 
