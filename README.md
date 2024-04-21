@@ -24,11 +24,11 @@ It solves the problem with the following steps:
     6-) Take most similar 50 pages
     7-) Update them with generic Prompt template with OpenAI GPT-3.5-turbo model
         if similarity socore is below the threshold
-    8-) Print the previous page content and update page content
-    9-) Check the Edit distance between old and updated content
-    10-) Check the semantic embedding similarities between old content and updated
-        content with the given natural language query
-    11-) Write the updated content in another Jsonl file.
+    8-) Print the previous page content and the updated page content
+    9-) Check the Edit Distance between old and updated content
+    10-) Check the semantic Embedding Similarities between the old content and 
+    the updated content with the given natural language query
+    11-) Write the updated content in another JSONL file.
 
 
 ## Improvements:
