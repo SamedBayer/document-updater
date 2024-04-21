@@ -34,19 +34,20 @@ It solves the problem with the following steps:
 ## Improvements:
 
 1-) Annoy is read-only - once the index is built you cannot add any more embeddings!
-Thus, different solutions might be used and embeddings can be updated on the fly.
+Thus, different solutions like pure vector databases might be used and embeddings can be updated on the fly.
+Also, experimenting with other vector libraries like FAISS might offer better performance.
 
-2-) More advanced models might be used for Embedding generation.
+2-) More advanced models might give better performance for Embedding generation.
 
 3-) Solution might be tested with different use cases. 
         Extreme cases:
         - Query which is irrelavent to all page contents
         - Query which is highly relevant to all page contents
 
-4-) Clustering similar page content and storing them like that might be tried.
+4-) Clustering similar page contents and storing them together might increase the performance.
 
 5-) Test functions should be written.
 
-6-) Prompt template can be improved.
+6-) System prompt template can be improved.
 
 7-) Better evaluation techniques might be used.
