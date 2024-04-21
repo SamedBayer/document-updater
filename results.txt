@@ -1,0 +1,150 @@
+You can find the evaluation results of 46 most similar content to the query.
+For many of the contents, the updated version has a higher semantic similarity score to 
+the query than the original. This indicates that the updates effectively made the content 
+more relevant to the query, aligning with the intended changes about archiving and deleting
+
+# Edit Distance:
+String Edit Distance for Similar Content 0:  {'score': 0.2498591700855607}
+String Edit Distance for Similar Content 1:  {'score': 0.22073150256966168}
+String Edit Distance for Similar Content 2:  {'score': 0.20425278095544497}
+String Edit Distance for Similar Content 3:  {'score': 0.3632463373613817}
+String Edit Distance for Similar Content 4:  {'score': 0.16625087400599547}
+String Edit Distance for Similar Content 5:  {'score': 0.24976908398325237}
+String Edit Distance for Similar Content 6:  {'score': 0.30465685675740983}
+String Edit Distance for Similar Content 7:  {'score': 0.17142062204833808}
+String Edit Distance for Similar Content 8:  {'score': 0.1731287368197636}
+String Edit Distance for Similar Content 9:  {'score': 0.2868326913034761}
+String Edit Distance for Similar Content 10:  {'score': 0.2559385713095961}
+String Edit Distance for Similar Content 11:  {'score': 0.3036957075320247}
+String Edit Distance for Similar Content 12:  {'score': 0.21990146436552083}
+String Edit Distance for Similar Content 13:  {'score': 0.3955743709842071}
+String Edit Distance for Similar Content 14:  {'score': 0.3376853801021027}
+String Edit Distance for Similar Content 15:  {'score': 0.39708902450837924}
+String Edit Distance for Similar Content 16:  {'score': 0.1741778324629637}
+String Edit Distance for Similar Content 17:  {'score': 0.23437972999422885}
+String Edit Distance for Similar Content 18:  {'score': 0.20393757600698503}
+String Edit Distance for Similar Content 19:  {'score': 0.16548049282323551}
+String Edit Distance for Similar Content 20:  {'score': 0.22717293753622625}
+String Edit Distance for Similar Content 21:  {'score': 0.2553126647337901}
+String Edit Distance for Similar Content 22:  {'score': 0.19774518208773328}
+String Edit Distance for Similar Content 23:  {'score': 0.24244770889066203}
+String Edit Distance for Similar Content 24:  {'score': 0.20980100754748643}
+String Edit Distance for Similar Content 25:  {'score': 0.15993589743589742}
+String Edit Distance for Similar Content 26:  {'score': 0.25137494914371183}
+String Edit Distance for Similar Content 27:  {'score': 0.13353822901900492}
+String Edit Distance for Similar Content 28:  {'score': 0.22616323417238748}
+String Edit Distance for Similar Content 29:  {'score': 0.2940254969749351}
+String Edit Distance for Similar Content 30:  {'score': 0.19436714079571216}
+String Edit Distance for Similar Content 31:  {'score': 0.1573421176552533}
+String Edit Distance for Similar Content 32:  {'score': 0.0030339872893063724}
+String Edit Distance for Similar Content 33:  {'score': 0.2071672752699868}
+String Edit Distance for Similar Content 34:  {'score': 0.32498312652510253}
+String Edit Distance for Similar Content 35:  {'score': 0.09997888834915525}
+String Edit Distance for Similar Content 36:  {'score': 0.17963840128788588}
+String Edit Distance for Similar Content 37:  {'score': 0.24018590354339642}
+String Edit Distance for Similar Content 38:  {'score': 0.35125354855747015}
+String Edit Distance for Similar Content 39:  {'score': 0.2421260038447538}
+String Edit Distance for Similar Content 40:  {'score': 0.20394872963365074}
+String Edit Distance for Similar Content 41:  {'score': 0.2200053496741562}
+String Edit Distance for Similar Content 42:  {'score': 0.2662788564405897}
+String Edit Distance for Similar Content 43:  {'score': 0.1956084765546181}
+String Edit Distance for Similar Content 44:  {'score': 0.30596113725311047}
+String Edit Distance for Similar Content 45:  {'score': 0.3447803878692073}
+String Edit Distance for Similar Content 46:  {'score': 0.18745043807902828}
+
+
+# Embedding Distance:
+Semantic Similarity of Old Content with Query for 0: {'score': 0.42009848740888944}
+Semantic Similarity of Updated Content with Query for 0: {'score': 0.31712010243635425}
+Semantic Similarity of Old Content with Query for 1: {'score': 0.487198026108854}
+Semantic Similarity of Updated Content with Query for 1: {'score': 0.49492439817775624}
+Semantic Similarity of Old Content with Query for 2: {'score': 0.5322701633067639}
+Semantic Similarity of Updated Content with Query for 2: {'score': 0.49455905348937523}
+Semantic Similarity of Old Content with Query for 3: {'score': 0.5530610124977711}
+Semantic Similarity of Updated Content with Query for 3: {'score': 0.22033509684136454}
+Semantic Similarity of Old Content with Query for 4: {'score': 0.5553175541410522}
+Semantic Similarity of Updated Content with Query for 4: {'score': 0.5098545702462374}
+Semantic Similarity of Old Content with Query for 5: {'score': 0.5650898463608803}
+Semantic Similarity of Updated Content with Query for 5: {'score': 0.32903379710280867}
+Semantic Similarity of Old Content with Query for 6: {'score': 0.5663710010352434}
+Semantic Similarity of Updated Content with Query for 6: {'score': 0.41647857545248235}
+Semantic Similarity of Old Content with Query for 7: {'score': 0.5695753137119002}
+Semantic Similarity of Updated Content with Query for 7: {'score': 0.584857335743689}
+Semantic Similarity of Old Content with Query for 8: {'score': 0.5800139669405375}
+Semantic Similarity of Updated Content with Query for 8: {'score': 0.5953396136253128}
+Semantic Similarity of Old Content with Query for 9: {'score': 0.5884682216097478}
+Semantic Similarity of Updated Content with Query for 9: {'score': 0.6406894923126438}
+Semantic Similarity of Old Content with Query for 10: {'score': 0.5903811015903566}
+Semantic Similarity of Updated Content with Query for 10: {'score': 0.3660461707675212}
+Semantic Similarity of Old Content with Query for 11: {'score': 0.5970589207967033}
+Semantic Similarity of Updated Content with Query for 11: {'score': 0.5230998045184381}
+Semantic Similarity of Old Content with Query for 12: {'score': 0.5973488987457829}
+Semantic Similarity of Updated Content with Query for 12: {'score': 0.49511702357743803}
+Semantic Similarity of Old Content with Query for 13: {'score': 0.6093927776453796}
+Semantic Similarity of Updated Content with Query for 13: {'score': 0.25319011923620804}
+Semantic Similarity of Old Content with Query for 14: {'score': 0.6104541511256576}
+Semantic Similarity of Updated Content with Query for 14: {'score': 0.6321841808133744}
+Semantic Similarity of Old Content with Query for 15: {'score': 0.6110656748144886}
+Semantic Similarity of Updated Content with Query for 15: {'score': 0.28819319738583904}
+Semantic Similarity of Old Content with Query for 16: {'score': 0.6111625997623329}
+Semantic Similarity of Updated Content with Query for 16: {'score': 0.6580241663346162}
+Semantic Similarity of Old Content with Query for 17: {'score': 0.6123532471405508}
+Semantic Similarity of Updated Content with Query for 17: {'score': 0.5427718881740053}
+Semantic Similarity of Old Content with Query for 18: {'score': 0.6170078891950179}
+Semantic Similarity of Updated Content with Query for 18: {'score': 0.6188805363999184}
+Semantic Similarity of Old Content with Query for 19: {'score': 0.619115364510602}
+Semantic Similarity of Updated Content with Query for 19: {'score': 0.5582339969661217}
+Semantic Similarity of Old Content with Query for 20: {'score': 0.6192336855199834}
+Semantic Similarity of Updated Content with Query for 20: {'score': 0.4442471331649388}
+Semantic Similarity of Old Content with Query for 21: {'score': 0.6194179165810954}
+Semantic Similarity of Updated Content with Query for 21: {'score': 0.42577159523201524}
+Semantic Similarity of Old Content with Query for 22: {'score': 0.6196754710966681}
+Semantic Similarity of Updated Content with Query for 22: {'score': 0.641745760963438}
+Semantic Similarity of Old Content with Query for 23: {'score': 0.6200814412724825}
+Semantic Similarity of Updated Content with Query for 23: {'score': 0.46306327753465526}
+Semantic Similarity of Old Content with Query for 24: {'score': 0.6210423779777212}
+Semantic Similarity of Updated Content with Query for 24: {'score': 0.5033130448119252}
+Semantic Similarity of Old Content with Query for 25: {'score': 0.6240395877650624}
+Semantic Similarity of Updated Content with Query for 25: {'score': 0.5434947639068475}
+Semantic Similarity of Old Content with Query for 26: {'score': 0.6245088414002367}
+Semantic Similarity of Updated Content with Query for 26: {'score': 0.5390537276615047}
+Semantic Similarity of Old Content with Query for 27: {'score': 0.6306859114761358}
+Semantic Similarity of Updated Content with Query for 27: {'score': 0.529223761034682}
+Semantic Similarity of Old Content with Query for 28: {'score': 0.6307303049360893}
+Semantic Similarity of Updated Content with Query for 28: {'score': 0.46507602494068434}
+Semantic Similarity of Old Content with Query for 29: {'score': 0.6321795146952632}
+Semantic Similarity of Updated Content with Query for 29: {'score': 0.3627300624069064}
+Semantic Similarity of Old Content with Query for 30: {'score': 0.6347979506207655}
+Semantic Similarity of Updated Content with Query for 30: {'score': 0.5774067552178657}
+Semantic Similarity of Old Content with Query for 31: {'score': 0.6361456000807977}
+Semantic Similarity of Updated Content with Query for 31: {'score': 0.6400484927912786}
+Semantic Similarity of Old Content with Query for 32: {'score': 0.6383070385687732}
+Semantic Similarity of Updated Content with Query for 32: {'score': 0.622435566797181}
+Semantic Similarity of Old Content with Query for 33: {'score': 0.6390902493165714}
+Semantic Similarity of Updated Content with Query for 33: {'score': 0.6610269321121067}
+Semantic Similarity of Old Content with Query for 34: {'score': 0.6393538340580828}
+Semantic Similarity of Updated Content with Query for 34: {'score': 0.3826861646363994}
+Semantic Similarity of Old Content with Query for 35: {'score': 0.6422569072324372}
+Semantic Similarity of Updated Content with Query for 35: {'score': 0.6673321556864622}
+Semantic Similarity of Old Content with Query for 36: {'score': 0.643261173341926}
+Semantic Similarity of Updated Content with Query for 36: {'score': 0.5436067186098233}
+Semantic Similarity of Old Content with Query for 37: {'score': 0.6433550456901069}
+Semantic Similarity of Updated Content with Query for 37: {'score': 0.4906385027929767}
+Semantic Similarity of Old Content with Query for 38: {'score': 0.6452248341663024}
+Semantic Similarity of Updated Content with Query for 38: {'score': 0.45656049975204804}
+Semantic Similarity of Old Content with Query for 39: {'score': 0.645822786725145}
+Semantic Similarity of Updated Content with Query for 39: {'score': 0.4268153895913056}
+Semantic Similarity of Old Content with Query for 40: {'score': 0.6515119261340659}
+Semantic Similarity of Updated Content with Query for 40: {'score': 0.46181083887343055}
+Semantic Similarity of Old Content with Query for 41: {'score': 0.6532491958023565}
+Semantic Similarity of Updated Content with Query for 41: {'score': 0.544132526384411}
+Semantic Similarity of Old Content with Query for 42: {'score': 0.653578212124303}
+Semantic Similarity of Updated Content with Query for 42: {'score': 0.4602901972925}
+Semantic Similarity of Old Content with Query for 43: {'score': 0.6540178453680676}
+Semantic Similarity of Updated Content with Query for 43: {'score': 0.5832506321487938}
+Semantic Similarity of Old Content with Query for 44: {'score': 0.6545808709440608}
+Semantic Similarity of Updated Content with Query for 44: {'score': 0.2645708343517281}
+Semantic Similarity of Old Content with Query for 45: {'score': 0.6564706853391373}
+Semantic Similarity of Updated Content with Query for 45: {'score': 0.27961000854776885}
+Semantic Similarity of Old Content with Query for 46: {'score': 0.657124651341361}
+Semantic Similarity of Updated Content with Query for 46: {'score': 0.5595804594436777}
