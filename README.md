@@ -3,11 +3,24 @@
 Provided by AwesomeQA. 
 This project tackles the challenge of maintaining up-to-date documentation in dynamically changing environments. The approach focuses on automation, leveraging AI to streamline the update process.
 
-## Minimum requirements:**
+## How to Run:
+
+- Install poetry [Poetry Page](https://python-poetry.org/docs/)
+- Run the following code:
+ `poetry install`
+
+- Add the OpenAI API key to the .env file.
+- Run the main function:
+  `poetry run python3 main.py`
+
+- You can also change the given query in the main calling function in the lowest part of the main.py.
+
+
+## Minimum requirements:
 
 - Based on a generic query like the above, the respective knowledge should be updated.
 - The number of OpenAI requests made per query should be limited to 50.
-- After a query was executed successfully, the updated json should be stored and the changes should be displayed / printed.
+- After a query is executed successfully, the updated JSON should be stored and the changes should be displayed/printed.
 - There are no performance or speed requirements.
 - Quickly evaluate the results, either quantitatively or qualitatively.
 - LLMs are still limited, so it’s ok if it doesn’t always work perfectly. Focus on the approach instead.
@@ -18,7 +31,7 @@ This project tackles the challenge of maintaining up-to-date documentation in dy
 It solves the problem with the following steps:
 
     1-) Load scraped data.
-    2-) Treat each line as a seperate chunk
+    2-) Treat each line as a separate chunk
     3-) Generate embeddings for each line using a free Hugging Face model.
     4-) Store embeddings in an Annoy vector store library.
     5-) Query the vector store using the specified query.
@@ -40,18 +53,18 @@ Also, experimenting with other vector libraries like FAISS might offer better pe
 2-) More advanced models might give better performance for Embedding generation.
 
 3-) The solution should be tested across various scenarios, including:
-        - Query which is irrelavent to all page contents
-        - Query which is highly relevant to all page contents
+        - Query which is irrelevant to all page contents
+        - Query that is highly relevant to all page contents
 
 4-) Clustering similar page contents and storing them together might increase the performance.
 
 5-) Test functions should be written.
 
-6-) System prompt template can be improved.
+6-) The system prompt template can be improved.
 
 7-) Evaluation is done qualitatively and with simple quantitative analysis. 
 Better evaluation techniques might be used to check the content pre- and post-update to ensure that 
 the changes align with the natural language query.
 
 8-) Similarity threshold to update is chosen by qualitative checks and it might be improved.
-Also, secondary LLM might be used to confirm if the content really needs updating based on the change context.
+Also, secondary LLM might be used to confirm if the content needs updating based on the change context.
