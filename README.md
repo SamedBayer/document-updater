@@ -1,4 +1,4 @@
-# Awesome Knowledge Challenge:
+# Updating Knowledge Challenge:
 
 Provided by AwesomeQA. 
 This project tackles the challenge of maintaining up-to-date documentation in dynamically changing environments. The approach focuses on automation, leveraging AI to streamline the update process.
