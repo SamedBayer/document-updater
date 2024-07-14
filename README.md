@@ -16,16 +16,6 @@ This project tackles the challenge of maintaining up-to-date documentation in dy
 - You can also change the given query in the main calling function in the lowest part of the main.py.
 
 
-## Minimum requirements:
-
-- Based on a generic query like the above, the respective knowledge should be updated.
-- The number of OpenAI requests made per query should be limited to 50.
-- After a query is executed successfully, the updated JSON should be stored and the changes should be displayed/printed.
-- There are no performance or speed requirements.
-- Quickly evaluate the results, either quantitatively or qualitatively.
-- LLMs are still limited, so it’s ok if it doesn’t always work perfectly. Focus on the approach instead.
-
-
 ## Structure:
 
 It solves the problem with the following steps:
@@ -43,28 +33,3 @@ It solves the problem with the following steps:
     10-) Assess the semantic embedding similarities between the old and updated content relative to the query.
     11-) Write the updated content into another JSONL file.
 
-
-## Improvements:
-
-1-) Annoy is read-only - once the index is built you cannot add any more embeddings!
-Thus, different solutions like pure vector databases might be used and embeddings can be updated on the fly.
-Also, experimenting with other vector libraries like FAISS might offer better performance.
-
-2-) More advanced models might give better performance for Embedding generation.
-
-3-) The solution should be tested across various scenarios, including:
-        - Query which is irrelevant to all page contents
-        - Query that is highly relevant to all page contents
-
-4-) Clustering similar page contents and storing them together might increase the performance.
-
-5-) Test functions should be written.
-
-6-) The system prompt template can be improved.
-
-7-) Evaluation is done qualitatively and with simple quantitative analysis. 
-Better evaluation techniques might be used to check the content pre- and post-update to ensure that 
-the changes align with the natural language query.
-
-8-) Similarity threshold to update is chosen by qualitative checks and it might be improved.
-Also, secondary LLM might be used to confirm if the content needs updating based on the change context.
